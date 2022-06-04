@@ -1,3 +1,36 @@
+<h1>First</h1>
+<h1>建立倉儲</h1>
+<p _msthash="170586" _msttexthash="31396924">建立並登錄<a href="https://github.com/">GitHub</a>帳號</p>
+<p _msthash="170586" _msttexthash="35491638"><a href="https://github.com/mdecourse/cp2021_hw/generate"></a>(Create a new repository from cp2021_hw)</p>
+<p _msthash="170586" _msttexthash="35491638"><span>Repository name 填上cp2021_hw(任取)</span></p>
+<p _msthash="170586" _msttexthash="35491638"><span>點下Create repository from template </span></p>
+<p _msthash="170586" _msttexthash="35491638"><span>跑出頁面後複製上方的網址</span></p>
+<p _msthash="170586" _msttexthash="35491638">打開可攜系統的cmd(黑色背景)</p>
+<p _msthash="170586" _msttexthash="35491638">輸入cd tmp 按下enter<span>不用我講吧</span></p>
+<p _msthash="170586" _msttexthash="35491638">輸入git clone --recurse-submodules<span> </span><span>https://github.com/不是用我的</span><a href="https://github.com/41023125/cp2021_hw(">(</a><span>複製的網址</span>).git(<span>.git記得加</span>)</p>
+<p _msthash="170586" _msttexthash="35491638">(<a href="https://w3c.hexschool.com/git/6bc20f81">git clone - 克隆遠端數據庫</a>)</p>
+<p _msthash="170586" _msttexthash="35491638">拉東西到資料夾<img alt="" height="1478" src="/images/S__21307402.jpg" width="1108"/></p>
+<p _msthash="170586" _msttexthash="35491638">下載完後輸入cd cp2021_hw</p>
+<p _msthash="170586" _msttexthash="35491638"><span>並設定完</span><a href="https://41023125.github.io/cp2021_hw/content/Personal%20access%20tokens(%E7%A2%BC%E7%89%8C).html">Personal access tokensg</a></p>
+<p _msthash="170586" _msttexthash="35491638">輸入acp就完成了</p>
+<p _msthash="170586" _msttexthash="35491638"></p>
+<p _msthash="170586" _msttexthash="35491638">輸入pip install pyopenssl (To install pyOpenSSL)</p>
+<p _msthash="170586" _msttexthash="35491638">輸入cms</p>
+<p _msthash="170586" _msttexthash="35491638">複製上面出現的網址並貼在網頁上面(https://127.0.0.1:9448)</p>
+<p _msthash="170586" _msttexthash="35491638">密碼為<span>admin</span></p>
+<p _msthash="170586" _msttexthash="35491638">即可修改近端</p>
+<p _msthash="170586" _msttexthash="35491638">修改完畢後點選generate_pages,將頁面改成靜態</p>
+<p _msthash="170586" _msttexthash="35491638"></p>
+<p _msthash="170586" _msttexthash="35491638">開另一個cmd(黑色頁面)</p>
+<p _msthash="170586" _msttexthash="35491638">輸入cd tmp\cp2021</p>
+<p _msthash="170586" _msttexthash="35491638">輸入git config --global user.email "(Your gmail)"</p>
+<p _msthash="170586" _msttexthash="35491638">輸入git config --global user.name "(Your Name)"</p>
+<p _msthash="170586" _msttexthash="35491638">並設定完<a href="https://41023125.github.io/cp2021_hw/content/Personal%20access%20tokens(%E7%A2%BC%E7%89%8C).html">Personal access tokensg</a></p>
+<p _msthash="170586" _msttexthash="35491638">輸入acp "(任意)"</p>
+<p _msthash="170586" _msttexthash="35491638">到github倉儲下的<a aria-current="page" class="UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item js-selected-navigation-item selected" data-ga-click="Repository, Navigation click, Settings tab" data-pjax="#repo-content-pjax-container" data-selected-links="repo_settings repo_branch_settings collaborators hooks integration_installations repo_keys_settings issue_template_editor secrets_settings security_analysis key_links_settings repo_actions_settings notifications repository_actions_settings_runners repository_environments interaction_limits repository_actions_settings_general repository_actions_settings_add_new_runner repo_pages_settings /41023125/cp2021_hw/settings" data-tab-item="i8settings-tab" data-view-component="true" href="https://github.com/41023125/cp2021_hw/settings" id="settings-tab"><span data-content="Settings">Settings</span></a></p>
+<p _msthash="170586" _msttexthash="35491638">並點選<span>Pages</span></p>
+<p _msthash="170586" _msttexthash="35491638">將Source<strong>改成</strong>main並Save</p>
+<p _msthash="170586" _msttexthash="35491638">即可將改版資料推上遠端</p>
 <h1>About</h1>
 <p>此內容管理系統以 <a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 作為 submodule 運作, 可以選定對應的版本運作, cmsimde 可以持續改版, 不會影響之前設為 submodule, 使用舊版 cmsimde 模組的內容管理相關運作.</p>
 <h4>利用 cmsimde 建立靜態網誌方法:</h4>
@@ -8,8 +41,97 @@
 <p>3.在近端維護時, 更換目錄到倉儲中的 cmsimde, 以 python wsgi.py 啟動近端網際伺服器.</p>
 <p>動態內容編輯完成後, 以 generate_pages 轉為靜態內容, 以 git add commit 及 push 將內容推到遠端.</p>
 <p>4. 之後若要以 git clone 取下包含 submodule 的所有內容, 執行:</p>
-<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p>
-<h1>Develop</h1>
+<p>git clone --recurse-submodules <a href="https://github.com/mdecourse/newcms.git">https://github.com/mdecourse/newcms.git</a></p><h1>Develop</h1>
 <p><a href="https://github.com/mdecourse/cmsimde">https://github.com/mdecourse/cmsimde</a> 的開發, 可以在一個目錄中放入 cmsimde, 然後將 up_dir 中的內容放到與 cmsimde 目錄同位階的地方, 使用 command 進入 cmsimde 目錄, 執行 python wsgi.py, 就可以啟動, 以瀏覽器 https://localhost:9443 就可以連接, 以 admin 作為管理者密碼, 就可以登入維護內容.</p>
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
+<h1>w14</h1>
+<!-- 導入 brython 程式庫 -->
+<script src="/static/brython.js"></script>
+<script src="/static/brython_stdlib.js"></script>
+<!-- 啟動 Brython -->
+<script>
+window.onload=function(){
+brython({debug:1, pythonpath:['/static/','./../downloads/py/']});
+}
+</script>
+<p><!-- 導入 FileSaver 與 filereader --></p>
+<p>
+<script src="/static/ace/FileSaver.min.js" type="text/javascript"></script>
+<script src="/static/ace/filereader.js" type="text/javascript"></script>
+</p>
+<p><!-- 導入 ace --></p>
+<p>
+<script src="/static/ace/ace.js" type="text/javascript"></script>
+<script src="/static/ace/ext-language_tools.js" type="text/javascript"></script>
+<script src="/static/ace/mode-python3.js" type="text/javascript"></script>
+<script src="/static/ace/snippets/python.js" type="text/javascript"></script>
+</p>
+<p><!-- 請注意, 這裡使用 Javascript 將 localStorage["py_src"] 中存在近端瀏覽器的程式碼, 由使用者決定存檔名稱--></p>
+<p>
+<script type="text/javascript">
+function doSave(storage_id, filename){
+    var blob = new Blob([localStorage[storage_id]], {type: "text/plain;charset=utf-8"});
+    filename = document.getElementById(filename).value
+    saveAs(blob, filename+".py");
+}
+</script>
+</p>
+<p><!-- 印出版次與關鍵字程式 --></p>
+<p>
+<script type="text/python3">
+from browser import document as doc
+import ace
+# 清除畫布
+def clear_bd(ev):
+    bd = doc["brython_div"]
+    bd.clear()
+# Brython 3.3.4 內建的 container 名稱為  'container' 且 turtle 輸出為 svg 必須使用 div 訂定 id
+Ace = ace.Editor(editor_id="kw_editor", console_id="kw_console", container_id="kw__container", storage_id="kw_py_src" )
+# 從 gist 取出程式碼後, 放入 editor 作為 default 程式
+def run():
+    # 利用 get 取下 src 變數值
+    try:
+        url = doc.query["src"]
+    except:
+        url = "https://gist.githubusercontent.com/mdecourse/e896a4705a95ac8cc4147b355b0e87ef/raw/8954b8280c524c5781dc3c0b3565bc489d3aa3a3/cango_gear1.py"
+    prog = open(url).read()
+
+    # 將程式載入編輯區
+    Ace.editor.setValue(prog)
+    Ace.editor.scrollToRow(0)
+    Ace.editor.gotoLine(0)
+    # 直接執行程式
+    #ns = {'__name__':'__main__'}
+    #exec(prog, ns)
+    # 按下 run 按鈕
+    Ace.run()
+
+# 執行程式, 顯示輸出結果與清除輸出結果及對應按鈕綁定
+doc['kw_run'].bind('click', Ace.run)
+doc['kw_show_console'].bind('click', Ace.show_console)
+doc['kw_clear_console'].bind('click', Ace.clear_console)
+doc['clear_bd'].bind('click', clear_bd)
+# 呼叫函式執行
+run()
+</script>
+</p>
+<p><!-- 用來顯示程式碼的 editor 區域 --></p>
+<div id="kw_editor" style="width: 600px; height: 300px;"></div>
+<p><!-- 以下的表單與按鈕與前面的 Javascript doSave 函式以及 FileSaver.min.js 互相配合 --></p>
+<!-- 存擋表單開始 --><form><label>Filename: <input id="kw_filename" placeholder="input file name" type="text"/>.py</label> <input onclick="doSave('kw_py_src', 'kw_filename');" type="submit" value="Save"/></form><!-- 存擋表單結束 -->
+<p></p>
+<!-- 執行與清除按鈕開始 -->
+<p><button id="kw_run">Run</button> <button id="kw_show_console">Output</button> <button id="kw_clear_console">清除輸出區</button><button id="clear_bd">清除繪圖區</button><button onclick="window.location.reload()">Reload</button></p>
+<!-- 執行與清除按鈕結束 -->
+<p></p>
+<!-- 程式執行 ouput 區 -->
+<div style="width: 100%; height: 100%;"><textarea autocomplete="off" id="kw_console"></textarea></div>
+<!-- Brython 程式執行的結果, 都以 brython_div 作為切入位置 -->
+<div id="brython_div"></div>
+<!-- 導入 gearUtils-0.9.js Cango 齒輪繪圖程式庫 -->
+<script src="https://mde.tw/cp2021/cmsimde/static/Cango-24v03-min.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/gearUtils-09.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/SVGpathUtils-6v03-min.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/sylvester.js"></script>
+<script src="https://mde.tw/cp2021/cmsimde/static/PrairieDraw.js"></script>
